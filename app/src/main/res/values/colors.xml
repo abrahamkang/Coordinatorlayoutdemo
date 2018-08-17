@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+
+    <color name="white_tran">#80FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_spilt">#FAFAFA</color>
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <!--APP风格-->
+    <color name="default_font_black">#333333</color>
+    <color name="default_tips_color">#666666</color>
+    <color name="default_hint_font">#999999</color>
+    <color name="default_input_hint_font">#cccccc</color>
+    <color name="main_font_black">#424242</color>
+    <color name="main_blue">#007099</color>
+    <color name="main_tip_red">#1b9a1b</color>
+    <color name="main_bg_color">#f7f7f7</color>
+    <color name="main_line">#e5e5e5</color>
+
+    <color name="main_remain_time_red">#ed4956</color>
+    <color name="kill_spilt_color">#bfbfbf</color>
+    <color name="hint_color">#b0b0b0</color>
+    <color name="brand_bg_color">#efefef</color>
+
+
+
+
+
+    <color name="view_bg_color">#ecf0f4</color>
+    <color name="brand_bg_stroke">#e6e6e6</color>
+    <color name="collect_blue">#007099</color>
+    <color name="order_red">#eb4343</color>
+    <color name="order_green">#66c521</color>
+    <color name="button_enable_false">#cccccc</color>
+    <color name="button_gray_fasle">#aaaaaa</color>
+
+    <color name="sell_font_color">#2a2929</color>
+    <color name="main_detail_recommend">#181818</color>
+    <color name="main_bottom_text">#c2a069</color>
+    <color name="main_hot_title_bg">#54efefef</color>
+    <color name="main_hot_tip_color">#b94029</color>
+    <color name="main_sell_font">#343434</color>
+    <color name="sale_red">#ed4956</color>
+    <color name="sale_green">#33a009</color>
+    <color name="sale_gray">#cccccc</color>
+    <color name="main_search_font">#8a8a8a</color>
+    <color name="main_font_color">#131313</color>
+    <color name="main_middle_price_color">#c2a069</color>
+    <color name="main_sell_num">#9a997c</color>
+    <color name="main_need_tip_font">#cbcbcb</color>
+    <color name="main_bottom_old_price">#c2c2c2</color>
+    <color name="main_bottom_spilt">#c3c3c3</color>
+    <color name="realname_bg_gray">#D3D3D3</color>
+    <color name="realname_waiting">#ff4d43</color>
+    <color name="realname_disable">#959595</color>
+
+    <color name="hot_item_price1">#ff2020</color>
+    <color name="hot_item_spilt">#b1a9a7</color>
+    <color name="hot_item_bottom_bg">#33292929</color>
+</resources>

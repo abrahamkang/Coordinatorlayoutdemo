@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_main_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_spilt" />
+
+    <!--<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">-->
+
+
+    <LinearLayout
+        android:id="@+id/main_total_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/scrollCoordubatirLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.AppBarLayout
+                    android:id="@+id/app_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.CollapsingToolbarLayout
+                        android:id="@+id/toolbar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fitsSystemWindows="true"
+                        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+                        <LinearLayout
+                            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:textAlignment="center"
+                                android:textSize="20sp"
+                                android:background="@color/actionsheet_gray"
+                                android:text="gridview or listview some widget"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:background="@color/white_spilt" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:textAlignment="center"
+                                android:textSize="20sp"
+                                android:background="@color/actionsheet_blue"
+                                android:text="content 3  listview or other"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:background="@color/white_spilt" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="content 3  listview or other"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:textAlignment="center"
+                                android:textSize="20sp"
+                                android:background="@color/white_spilt" />
+
+                        </LinearLayout>
+
+
+                    </android.support.design.widget.CollapsingToolbarLayout>
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tab_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@color/white"
+                        app:tabIndicatorColor="@color/main_bottom_text"
+                        app:tabSelectedTextColor="@color/default_font_black"
+                        app:tabTextColor="@color/default_font_black">
+
+                    </android.support.design.widget.TabLayout>
+                </android.support.design.widget.AppBarLayout>
+
+                <LinearLayout
+                    android:id="@+id/nested_scroll_view"
+                    android:layout_width="match_parent"
+                    android:fillViewport="true"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/data_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </android.support.v4.view.ViewPager>
+
+                </LinearLayout>
+
+
+            </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+</LinearLayout>
